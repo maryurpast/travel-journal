@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <section className="main-section">{cards}</section>
+      <section className="main--section">{cards}</section>
     </>
   );
 }

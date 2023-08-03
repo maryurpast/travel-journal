@@ -16,7 +16,7 @@ function Card(props) {
             View on Google Maps
           </a>
         </div>
-        <p className="card-name">{props.title}</p>
+        <p className="card--name">{props.title}</p>
         <p className="card--date">
           <span>{props.startDate}</span> - <span>{props.endDate}</span>
         </p>
